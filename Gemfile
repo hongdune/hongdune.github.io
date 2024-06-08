@@ -4,6 +4,10 @@ source "https://rubygems.org"
 
 gemspec
 
+gem 'tzinfo'
+gem 'tzinfo-data'
+gem 'wdm', '>= 0.1.0'
+
 group :test do
   gem "html-proofer", "~> 5.0"
 end
